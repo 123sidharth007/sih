@@ -1,0 +1,32 @@
+sudo nmcli device wifi hotspot ifname wlan0 ssid revive
+
+nmcli connection show
+
+#curl sSL https://install.pi-hole.net
+
+
+curl sSL https://install.pi-hole.net | bash
+
+
+nmcli device wifi show-password
+
+
+ #curl sSL https://install.pi-hole.net |
+
+ curl -sSL https://install.pi-hole.net | bash
+
+ nmcli device wifi show-password
+
+ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+ sudo wpa_cli -1 wlano reconfigure
+ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+ sudo wpa_cli -1 wlano reconfigure
+
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+
+ sudo wpa_cli -1 wlano reconfigure
+
+ijas@raspberrypi
